@@ -1,0 +1,295 @@
+<html
+        xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<title>Jira</title>
+<style type="text/css">
+table {
+    mso-displayed-decimal-separator:"\.";
+    mso-displayed-thousand-separator:"\,";
+}
+body
+{
+    margin: 0px;
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+    color:black;
+}
+
+</style>
+<META HTTP-EQUIV="Content-Type" Content="application/vnd.ms-excel; charset=UTF-8">
+<!-- JRA-7598 - ensure fields (e.g. description) occupy only one cell - even fields containing newlines. -->
+<!--
+Vertical align all cells to the top, in order to align all issue rows of issuetable to the top,
+since Excel does not use or save the css files it is hardcoded here.
+-->
+<style>
+@page
+{
+mso-page-orientation:landscape;
+margin:.25in .25in .5in .25in;
+mso-header-margin:.5in;
+mso-footer-margin:.25in;
+mso-footer-data:"&R&P of &N";
+mso-horizontal-page-align:center;
+mso-vertical-page-align:center;
+}
+
+td.issuekey,
+td.issuetype,
+td.status {
+    mso-style-parent: "";
+    mso-number-format: \@;
+    text-align: left;
+}
+br
+{
+    mso-data-placement:same-cell;
+}
+
+td
+{
+    vertical-align: top;
+}
+</style>
+
+<!--[if gte mso 9]><xml>
+<x:ExcelWorkbook>
+<x:ExcelWorksheets>
+<x:ExcelWorksheet>
+<x:Name>general_report</x:Name>
+<x:WorksheetOptions>
+<x:Print>
+<x:ValidPrinterInfo/>
+</x:Print>
+</x:WorksheetOptions>
+</x:ExcelWorksheet>
+</x:ExcelWorksheets>
+</x:ExcelWorkbook>
+</xml><![endif]-->
+</head>
+<body>
+
+<table border="1">
+    <tr bgcolor="#205081" height="30">
+        <td colspan="11">
+            <img src="https://team-9e21xqnfx5rs.atlassian.net/images/icon-jira-software-logo.png" width="57" height="30" border="0" alt="Jira">
+        </td>
+    </tr>
+    <tr>
+        <td colspan="11">
+            <a href="https://team-9e21xqnfx5rs.atlassian.net/issues/?jql=project+%3D+%22SCRUM%22+and+type+%3D+Epic+ORDER+BY+key+ASC%2C+created+DESC">Jira</a>
+        </td>
+    </tr>
+    <tr>
+                <td colspan="11">
+            Displaying <strong>5</strong> issues at <strong>19/Mar/24 12:28 PM</strong>.
+        </td>
+    </tr>
+</table>
+
+
+
+
+                                        <table id="issuetable" class="aui " border="1" cellpadding="3" cellspacing="1" width="100%">
+                        <thead>
+        <tr class="rowHeader">
+            
+                                                            <th class="colHeaderLink headerrow-issuetype" data-id="issuetype">
+                                                        Issue Type
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-issuekey" data-id="issuekey">
+                                                        Key
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-summary" data-id="summary">
+                                                        Summary
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-assignee" data-id="assignee">
+                                                        Assignee
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-reporter" data-id="reporter">
+                                                        Reporter
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-priority" data-id="priority">
+                                                        Priority
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-status" data-id="status">
+                                                        Status
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-resolution" data-id="resolution">
+                                                        Resolution
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-created" data-id="created">
+                                                        Created
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-updated" data-id="updated">
+                                                        Updated
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-duedate" data-id="duedate">
+                                                        Due date
+                                                    </th>
+                                                                    </tr>
+    </thead>
+    <tbody>
+                    
+
+                <tr id="issuerow10000" rel="10000" data-issuekey="SCRUM-1" class="issuerow">
+                                            <td class="issuetype">    Epic
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="SCRUM-1" href="https://team-9e21xqnfx5rs.atlassian.net/browse/SCRUM-1">SCRUM-1</a>
+</td>
+                                            <td class="summary"><p>
+                User RegistrationUser Registration and Authentication and Authentication
+    </p>
+</td>
+                                            <td class="assignee">    <em>Unassigned</em>
+</td>
+                                            <td class="reporter">            Manoj Chitgopkar
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;To Do&lt;/span&gt;">To Do</span>    </td>
+                                            <td class="resolution">    <em>Unresolved</em>
+</td>
+                                            <td class="created"> 18/Mar/24 9:52 AM </td>
+                                            <td class="updated"> 19/Mar/24 10:04 AM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10001" rel="10001" data-issuekey="SCRUM-2" class="issuerow">
+                                            <td class="issuetype">    Epic
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="SCRUM-2" href="https://team-9e21xqnfx5rs.atlassian.net/browse/SCRUM-2">SCRUM-2</a>
+</td>
+                                            <td class="summary"><p>
+                Portal Features
+    </p>
+</td>
+                                            <td class="assignee">    <em>Unassigned</em>
+</td>
+                                            <td class="reporter">            Manoj Chitgopkar
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;To Do&lt;/span&gt;">To Do</span>    </td>
+                                            <td class="resolution">    <em>Unresolved</em>
+</td>
+                                            <td class="created"> 18/Mar/24 9:53 AM </td>
+                                            <td class="updated"> 18/Mar/24 12:21 PM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10002" rel="10002" data-issuekey="SCRUM-3" class="issuerow">
+                                            <td class="issuetype">    Epic
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="SCRUM-3" href="https://team-9e21xqnfx5rs.atlassian.net/browse/SCRUM-3">SCRUM-3</a>
+</td>
+                                            <td class="summary"><p>
+                Weather data Integration, Aggregation, Storage and Analytics
+    </p>
+</td>
+                                            <td class="assignee">    <em>Unassigned</em>
+</td>
+                                            <td class="reporter">            Manoj Chitgopkar
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;To Do&lt;/span&gt;">To Do</span>    </td>
+                                            <td class="resolution">    <em>Unresolved</em>
+</td>
+                                            <td class="created"> 18/Mar/24 9:53 AM </td>
+                                            <td class="updated"> 18/Mar/24 12:20 PM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10003" rel="10003" data-issuekey="SCRUM-4" class="issuerow">
+                                            <td class="issuetype">    Epic
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="SCRUM-4" href="https://team-9e21xqnfx5rs.atlassian.net/browse/SCRUM-4">SCRUM-4</a>
+</td>
+                                            <td class="summary"><p>
+                User Experience and Interface Design
+    </p>
+</td>
+                                            <td class="assignee">    <em>Unassigned</em>
+</td>
+                                            <td class="reporter">            Manoj Chitgopkar
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;To Do&lt;/span&gt;">To Do</span>    </td>
+                                            <td class="resolution">    <em>Unresolved</em>
+</td>
+                                            <td class="created"> 18/Mar/24 9:53 AM </td>
+                                            <td class="updated"> 18/Mar/24 9:53 AM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10004" rel="10004" data-issuekey="SCRUM-5" class="issuerow">
+                                            <td class="issuetype">    Epic
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="SCRUM-5" href="https://team-9e21xqnfx5rs.atlassian.net/browse/SCRUM-5">SCRUM-5</a>
+</td>
+                                            <td class="summary"><p>
+                Mobile Apps Development
+    </p>
+</td>
+                                            <td class="assignee">    <em>Unassigned</em>
+</td>
+                                            <td class="reporter">            Manoj Chitgopkar
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;To Do&lt;/span&gt;">To Do</span>    </td>
+                                            <td class="resolution">    <em>Unresolved</em>
+</td>
+                                            <td class="created"> 18/Mar/24 9:53 AM </td>
+                                            <td class="updated"> 18/Mar/24 9:53 AM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+        </tbody>
+    </table>
+    <div class="end-of-stable-message"></div>
+            <table border="1" >
+<tr>
+    <td bgcolor="#dddddd" colspan="11"><font size="1">
+        Generated at Tue Mar 19 06:58:11 UTC 2024 by Manoj Chitgopkar using Jira 1001.0.0-SNAPSHOT#100247-rev:f15eb5ecd9752cc33a3d56ca2cfdfada66c281b0.
+    </font></td>
+</tr>
+</table>
+
+</body>
+</html>

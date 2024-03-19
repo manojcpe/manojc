@@ -1,0 +1,883 @@
+<html
+        xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<title>Jira</title>
+<style type="text/css">
+table {
+    mso-displayed-decimal-separator:"\.";
+    mso-displayed-thousand-separator:"\,";
+}
+body
+{
+    margin: 0px;
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+    color:black;
+}
+
+</style>
+<META HTTP-EQUIV="Content-Type" Content="application/vnd.ms-excel; charset=UTF-8">
+<!-- JRA-7598 - ensure fields (e.g. description) occupy only one cell - even fields containing newlines. -->
+<!--
+Vertical align all cells to the top, in order to align all issue rows of issuetable to the top,
+since Excel does not use or save the css files it is hardcoded here.
+-->
+<style>
+@page
+{
+mso-page-orientation:landscape;
+margin:.25in .25in .5in .25in;
+mso-header-margin:.5in;
+mso-footer-margin:.25in;
+mso-footer-data:"&R&P of &N";
+mso-horizontal-page-align:center;
+mso-vertical-page-align:center;
+}
+
+td.issuekey,
+td.issuetype,
+td.status {
+    mso-style-parent: "";
+    mso-number-format: \@;
+    text-align: left;
+}
+br
+{
+    mso-data-placement:same-cell;
+}
+
+td
+{
+    vertical-align: top;
+}
+</style>
+
+<!--[if gte mso 9]><xml>
+<x:ExcelWorkbook>
+<x:ExcelWorksheets>
+<x:ExcelWorksheet>
+<x:Name>general_report</x:Name>
+<x:WorksheetOptions>
+<x:Print>
+<x:ValidPrinterInfo/>
+</x:Print>
+</x:WorksheetOptions>
+</x:ExcelWorksheet>
+</x:ExcelWorksheets>
+</x:ExcelWorkbook>
+</xml><![endif]-->
+</head>
+<body>
+
+<table border="1">
+    <tr bgcolor="#205081" height="30">
+        <td colspan="11">
+            <img src="https://team-9e21xqnfx5rs.atlassian.net/images/icon-jira-software-logo.png" width="57" height="30" border="0" alt="Jira">
+        </td>
+    </tr>
+    <tr>
+        <td colspan="11">
+            <a href="https://team-9e21xqnfx5rs.atlassian.net/issues/?jql=project+%3D+%22SCRUM%22+ORDER+BY+key+ASC%2C+created+DESC">Jira</a>
+        </td>
+    </tr>
+    <tr>
+                <td colspan="11">
+            Displaying <strong>26</strong> issues at <strong>19/Mar/24 12:33 PM</strong>.
+        </td>
+    </tr>
+</table>
+
+
+
+
+                                        <table id="issuetable" class="aui " border="1" cellpadding="3" cellspacing="1" width="100%">
+                        <thead>
+        <tr class="rowHeader">
+            
+                                                            <th class="colHeaderLink headerrow-issuetype" data-id="issuetype">
+                                                        Issue Type
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-issuekey" data-id="issuekey">
+                                                        Key
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-summary" data-id="summary">
+                                                        Summary
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-assignee" data-id="assignee">
+                                                        Assignee
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-reporter" data-id="reporter">
+                                                        Reporter
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-priority" data-id="priority">
+                                                        Priority
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-status" data-id="status">
+                                                        Status
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-resolution" data-id="resolution">
+                                                        Resolution
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-created" data-id="created">
+                                                        Created
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-updated" data-id="updated">
+                                                        Updated
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-duedate" data-id="duedate">
+                                                        Due date
+                                                    </th>
+                                                                    </tr>
+    </thead>
+    <tbody>
+                    
+
+                <tr id="issuerow10000" rel="10000" data-issuekey="SCRUM-1" class="issuerow">
+                                            <td class="issuetype">    Epic
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="SCRUM-1" href="https://team-9e21xqnfx5rs.atlassian.net/browse/SCRUM-1">SCRUM-1</a>
+</td>
+                                            <td class="summary"><p>
+                User RegistrationUser Registration and Authentication and Authentication
+    </p>
+</td>
+                                            <td class="assignee">    <em>Unassigned</em>
+</td>
+                                            <td class="reporter">            Manoj Chitgopkar
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;To Do&lt;/span&gt;">To Do</span>    </td>
+                                            <td class="resolution">    <em>Unresolved</em>
+</td>
+                                            <td class="created"> 18/Mar/24 9:52 AM </td>
+                                            <td class="updated"> 19/Mar/24 10:04 AM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10001" rel="10001" data-issuekey="SCRUM-2" class="issuerow">
+                                            <td class="issuetype">    Epic
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="SCRUM-2" href="https://team-9e21xqnfx5rs.atlassian.net/browse/SCRUM-2">SCRUM-2</a>
+</td>
+                                            <td class="summary"><p>
+                Portal Features
+    </p>
+</td>
+                                            <td class="assignee">    <em>Unassigned</em>
+</td>
+                                            <td class="reporter">            Manoj Chitgopkar
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;To Do&lt;/span&gt;">To Do</span>    </td>
+                                            <td class="resolution">    <em>Unresolved</em>
+</td>
+                                            <td class="created"> 18/Mar/24 9:53 AM </td>
+                                            <td class="updated"> 18/Mar/24 12:21 PM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10002" rel="10002" data-issuekey="SCRUM-3" class="issuerow">
+                                            <td class="issuetype">    Epic
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="SCRUM-3" href="https://team-9e21xqnfx5rs.atlassian.net/browse/SCRUM-3">SCRUM-3</a>
+</td>
+                                            <td class="summary"><p>
+                Weather data Integration, Aggregation, Storage and Analytics
+    </p>
+</td>
+                                            <td class="assignee">    <em>Unassigned</em>
+</td>
+                                            <td class="reporter">            Manoj Chitgopkar
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;To Do&lt;/span&gt;">To Do</span>    </td>
+                                            <td class="resolution">    <em>Unresolved</em>
+</td>
+                                            <td class="created"> 18/Mar/24 9:53 AM </td>
+                                            <td class="updated"> 18/Mar/24 12:20 PM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10003" rel="10003" data-issuekey="SCRUM-4" class="issuerow">
+                                            <td class="issuetype">    Epic
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="SCRUM-4" href="https://team-9e21xqnfx5rs.atlassian.net/browse/SCRUM-4">SCRUM-4</a>
+</td>
+                                            <td class="summary"><p>
+                User Experience and Interface Design
+    </p>
+</td>
+                                            <td class="assignee">    <em>Unassigned</em>
+</td>
+                                            <td class="reporter">            Manoj Chitgopkar
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;To Do&lt;/span&gt;">To Do</span>    </td>
+                                            <td class="resolution">    <em>Unresolved</em>
+</td>
+                                            <td class="created"> 18/Mar/24 9:53 AM </td>
+                                            <td class="updated"> 18/Mar/24 9:53 AM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10004" rel="10004" data-issuekey="SCRUM-5" class="issuerow">
+                                            <td class="issuetype">    Epic
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="SCRUM-5" href="https://team-9e21xqnfx5rs.atlassian.net/browse/SCRUM-5">SCRUM-5</a>
+</td>
+                                            <td class="summary"><p>
+                Mobile Apps Development
+    </p>
+</td>
+                                            <td class="assignee">    <em>Unassigned</em>
+</td>
+                                            <td class="reporter">            Manoj Chitgopkar
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;To Do&lt;/span&gt;">To Do</span>    </td>
+                                            <td class="resolution">    <em>Unresolved</em>
+</td>
+                                            <td class="created"> 18/Mar/24 9:53 AM </td>
+                                            <td class="updated"> 18/Mar/24 9:53 AM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10005" rel="10005" data-issuekey="SCRUM-6" class="issuerow">
+                                            <td class="issuetype">    Story
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="SCRUM-6" href="https://team-9e21xqnfx5rs.atlassian.net/browse/SCRUM-6">SCRUM-6</a>
+</td>
+                                            <td class="summary"><p>
+                As a new user, I want to create an account on the portal using my email and password, so that I can access personalized weather information.
+    </p>
+</td>
+                                            <td class="assignee">            Developer
+    </td>
+                                            <td class="reporter">            Manoj Chitgopkar
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Done&lt;/span&gt;">Done</span>    </td>
+                                            <td class="resolution">    Done
+</td>
+                                            <td class="created"> 18/Mar/24 9:55 AM </td>
+                                            <td class="updated"> 19/Mar/24 10:31 AM </td>
+                                            <td class="duedate">    07/Feb/24
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10006" rel="10006" data-issuekey="SCRUM-7" class="issuerow">
+                                            <td class="issuetype">    Story
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="SCRUM-7" href="https://team-9e21xqnfx5rs.atlassian.net/browse/SCRUM-7">SCRUM-7</a>
+</td>
+                                            <td class="summary"><p>
+                Create a page for users to become paid members and complete the payment option
+    </p>
+</td>
+                                            <td class="assignee">            Developer
+    </td>
+                                            <td class="reporter">            Manoj Chitgopkar
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Done&lt;/span&gt;">Done</span>    </td>
+                                            <td class="resolution">    Done
+</td>
+                                            <td class="created"> 18/Mar/24 9:56 AM </td>
+                                            <td class="updated"> 19/Mar/24 10:31 AM </td>
+                                            <td class="duedate">    08/Feb/24
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10007" rel="10007" data-issuekey="SCRUM-8" class="issuerow">
+                                            <td class="issuetype">    Story
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="SCRUM-8" href="https://team-9e21xqnfx5rs.atlassian.net/browse/SCRUM-8">SCRUM-8</a>
+</td>
+                                            <td class="summary"><p>
+                As a registered user, I want to log in to the portal using my credentials so that I can access my saved preferences and settings.
+    </p>
+</td>
+                                            <td class="assignee">            Developer
+    </td>
+                                            <td class="reporter">            Manoj Chitgopkar
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Done&lt;/span&gt;">Done</span>    </td>
+                                            <td class="resolution">    Done
+</td>
+                                            <td class="created"> 18/Mar/24 10:00 AM </td>
+                                            <td class="updated"> 19/Mar/24 10:31 AM </td>
+                                            <td class="duedate">    09/Feb/24
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10008" rel="10008" data-issuekey="SCRUM-9" class="issuerow">
+                                            <td class="issuetype">    Story
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="SCRUM-9" href="https://team-9e21xqnfx5rs.atlassian.net/browse/SCRUM-9">SCRUM-9</a>
+</td>
+                                            <td class="summary"><p>
+                As a user, I want the mobile apps to provide push notifications for severe weather alerts, so that I can receive timely updates.
+    </p>
+</td>
+                                            <td class="assignee">            Developer
+    </td>
+                                            <td class="reporter">            Manoj Chitgopkar
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Done&lt;/span&gt;">Done</span>    </td>
+                                            <td class="resolution">    Done
+</td>
+                                            <td class="created"> 18/Mar/24 10:00 AM </td>
+                                            <td class="updated"> 19/Mar/24 10:31 AM </td>
+                                            <td class="duedate">    18/Mar/24
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10009" rel="10009" data-issuekey="SCRUM-10" class="issuerow">
+                                            <td class="issuetype">    Story
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="SCRUM-10" href="https://team-9e21xqnfx5rs.atlassian.net/browse/SCRUM-10">SCRUM-10</a>
+</td>
+                                            <td class="summary"><p>
+                As a developer, I want to design a database schema and set up a weather data storage system, so that we can store and retrieve weather data efficiently based on the location.
+    </p>
+</td>
+                                            <td class="assignee">            Developer
+    </td>
+                                            <td class="reporter">            Manoj Chitgopkar
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Done&lt;/span&gt;">Done</span>    </td>
+                                            <td class="resolution">    Done
+</td>
+                                            <td class="created"> 18/Mar/24 10:00 AM </td>
+                                            <td class="updated"> 19/Mar/24 10:31 AM </td>
+                                            <td class="duedate">    04/Feb/24
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10010" rel="10010" data-issuekey="SCRUM-11" class="issuerow">
+                                            <td class="issuetype">    Story
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="SCRUM-11" href="https://team-9e21xqnfx5rs.atlassian.net/browse/SCRUM-11">SCRUM-11</a>
+</td>
+                                            <td class="summary"><p>
+                As a developer, I want to provide time-lapse videos of satellite forecasts for registered user based on their preferences.
+    </p>
+</td>
+                                            <td class="assignee">            Developer
+    </td>
+                                            <td class="reporter">            Manoj Chitgopkar
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Done&lt;/span&gt;">Done</span>    </td>
+                                            <td class="resolution">    Done
+</td>
+                                            <td class="created"> 18/Mar/24 10:01 AM </td>
+                                            <td class="updated"> 19/Mar/24 10:31 AM </td>
+                                            <td class="duedate">    15/Mar/24
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10011" rel="10011" data-issuekey="SCRUM-12" class="issuerow">
+                                            <td class="issuetype">    Story
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="SCRUM-12" href="https://team-9e21xqnfx5rs.atlassian.net/browse/SCRUM-12">SCRUM-12</a>
+</td>
+                                            <td class="summary"><p>
+                As a user, I want to view current weather conditions at specific locations, so that I can plan my activities accordingly.
+    </p>
+</td>
+                                            <td class="assignee">            Developer
+    </td>
+                                            <td class="reporter">            Manoj Chitgopkar
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Done&lt;/span&gt;">Done</span>    </td>
+                                            <td class="resolution">    Done
+</td>
+                                            <td class="created"> 18/Mar/24 10:01 AM </td>
+                                            <td class="updated"> 19/Mar/24 10:31 AM </td>
+                                            <td class="duedate">    11/Feb/24
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10012" rel="10012" data-issuekey="SCRUM-13" class="issuerow">
+                                            <td class="issuetype">    Story
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="SCRUM-13" href="https://team-9e21xqnfx5rs.atlassian.net/browse/SCRUM-13">SCRUM-13</a>
+</td>
+                                            <td class="summary"><p>
+                As a user, I want to view forecasts for five, ten, and fifteen days at a location, so that I can plan my long-term activities and travel plans.
+    </p>
+</td>
+                                            <td class="assignee">            Developer
+    </td>
+                                            <td class="reporter">            Manoj Chitgopkar
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Done&lt;/span&gt;">Done</span>    </td>
+                                            <td class="resolution">    Done
+</td>
+                                            <td class="created"> 18/Mar/24 10:01 AM </td>
+                                            <td class="updated"> 19/Mar/24 10:31 AM </td>
+                                            <td class="duedate">    15/Feb/24
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10013" rel="10013" data-issuekey="SCRUM-14" class="issuerow">
+                                            <td class="issuetype">    Story
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="SCRUM-14" href="https://team-9e21xqnfx5rs.atlassian.net/browse/SCRUM-14">SCRUM-14</a>
+</td>
+                                            <td class="summary"><p>
+                As a user, I want to receive severe weather advisories and alerts, so that I can stay informed and take necessary precautions.
+    </p>
+</td>
+                                            <td class="assignee">            Developer
+    </td>
+                                            <td class="reporter">            Manoj Chitgopkar
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Done&lt;/span&gt;">Done</span>    </td>
+                                            <td class="resolution">    Done
+</td>
+                                            <td class="created"> 18/Mar/24 10:01 AM </td>
+                                            <td class="updated"> 19/Mar/24 10:31 AM </td>
+                                            <td class="duedate">    04/Mar/24
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10014" rel="10014" data-issuekey="SCRUM-15" class="issuerow">
+                                            <td class="issuetype">    Story
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="SCRUM-15" href="https://team-9e21xqnfx5rs.atlassian.net/browse/SCRUM-15">SCRUM-15</a>
+</td>
+                                            <td class="summary"><p>
+                As a user, I want portal to have a responsive design, so that I can access it from different devices and form factors.
+    </p>
+</td>
+                                            <td class="assignee">            Developer
+    </td>
+                                            <td class="reporter">            Manoj Chitgopkar
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Done&lt;/span&gt;">Done</span>    </td>
+                                            <td class="resolution">    Done
+</td>
+                                            <td class="created"> 18/Mar/24 10:02 AM </td>
+                                            <td class="updated"> 19/Mar/24 10:31 AM </td>
+                                            <td class="duedate">    14/Feb/24
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10015" rel="10015" data-issuekey="SCRUM-16" class="issuerow">
+                                            <td class="issuetype">    Story
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="SCRUM-16" href="https://team-9e21xqnfx5rs.atlassian.net/browse/SCRUM-16">SCRUM-16</a>
+</td>
+                                            <td class="summary"><p>
+                As a User, I want the portal to load quickly and provide a smooth user experience, so that I can access weather information without delays.
+    </p>
+</td>
+                                            <td class="assignee">            Developer
+    </td>
+                                            <td class="reporter">            Manoj Chitgopkar
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Done&lt;/span&gt;">Done</span>    </td>
+                                            <td class="resolution">    Done
+</td>
+                                            <td class="created"> 18/Mar/24 10:02 AM </td>
+                                            <td class="updated"> 19/Mar/24 10:31 AM </td>
+                                            <td class="duedate">    12/Feb/24
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10016" rel="10016" data-issuekey="SCRUM-17" class="issuerow">
+                                            <td class="issuetype">    Story
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="SCRUM-17" href="https://team-9e21xqnfx5rs.atlassian.net/browse/SCRUM-17">SCRUM-17</a>
+</td>
+                                            <td class="summary"><p>
+                As a user, I want the portal to have a visually appealing interface with intuitive navigation, so that I can easily find the information I need.
+    </p>
+</td>
+                                            <td class="assignee">            Developer
+    </td>
+                                            <td class="reporter">            Manoj Chitgopkar
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Done&lt;/span&gt;">Done</span>    </td>
+                                            <td class="resolution">    Done
+</td>
+                                            <td class="created"> 18/Mar/24 10:02 AM </td>
+                                            <td class="updated"> 19/Mar/24 10:31 AM </td>
+                                            <td class="duedate">    15/Feb/24
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10017" rel="10017" data-issuekey="SCRUM-18" class="issuerow">
+                                            <td class="issuetype">    Story
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="SCRUM-18" href="https://team-9e21xqnfx5rs.atlassian.net/browse/SCRUM-18">SCRUM-18</a>
+</td>
+                                            <td class="summary"><p>
+                As a developer, I want to design portals which should have a have provisions for advertisements on the portal and apps.
+    </p>
+</td>
+                                            <td class="assignee">            Developer
+    </td>
+                                            <td class="reporter">            Manoj Chitgopkar
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Done&lt;/span&gt;">Done</span>    </td>
+                                            <td class="resolution">    Done
+</td>
+                                            <td class="created"> 18/Mar/24 10:02 AM </td>
+                                            <td class="updated"> 19/Mar/24 10:31 AM </td>
+                                            <td class="duedate">    18/Mar/24
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10021" rel="10021" data-issuekey="SCRUM-22" class="issuerow">
+                                            <td class="issuetype">    Story
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="SCRUM-22" href="https://team-9e21xqnfx5rs.atlassian.net/browse/SCRUM-22">SCRUM-22</a>
+</td>
+                                            <td class="summary"><p>
+                As a user, I want to have the facility to show satellite images and time-lapsed videos based on location and preferences.
+    </p>
+</td>
+                                            <td class="assignee">            Developer
+    </td>
+                                            <td class="reporter">            Manoj Chitgopkar
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Done&lt;/span&gt;">Done</span>    </td>
+                                            <td class="resolution">    Done
+</td>
+                                            <td class="created"> 18/Mar/24 10:03 AM </td>
+                                            <td class="updated"> 19/Mar/24 10:31 AM </td>
+                                            <td class="duedate">    29/Feb/24
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10022" rel="10022" data-issuekey="SCRUM-23" class="issuerow">
+                                            <td class="issuetype">    Story
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="SCRUM-23" href="https://team-9e21xqnfx5rs.atlassian.net/browse/SCRUM-23">SCRUM-23</a>
+</td>
+                                            <td class="summary"><p>
+                As a mobile user, I want to download and install the iOS app, so that I can access weather information on my iPhone.
+    </p>
+</td>
+                                            <td class="assignee">            Developer
+    </td>
+                                            <td class="reporter">            Manoj Chitgopkar
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Done&lt;/span&gt;">Done</span>    </td>
+                                            <td class="resolution">    Done
+</td>
+                                            <td class="created"> 18/Mar/24 10:03 AM </td>
+                                            <td class="updated"> 19/Mar/24 10:31 AM </td>
+                                            <td class="duedate">    10/Mar/24
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10023" rel="10023" data-issuekey="SCRUM-24" class="issuerow">
+                                            <td class="issuetype">    Story
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="SCRUM-24" href="https://team-9e21xqnfx5rs.atlassian.net/browse/SCRUM-24">SCRUM-24</a>
+</td>
+                                            <td class="summary"><p>
+                As a mobile user, I want to download and install the android app, so that I can access weather information on my android phone.
+    </p>
+</td>
+                                            <td class="assignee">            Manoj Chitgopkar
+    </td>
+                                            <td class="reporter">            Manoj Chitgopkar
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Done&lt;/span&gt;">Done</span>    </td>
+                                            <td class="resolution">    Done
+</td>
+                                            <td class="created"> 18/Mar/24 10:03 AM </td>
+                                            <td class="updated"> 19/Mar/24 10:31 AM </td>
+                                            <td class="duedate">    10/Mar/24
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10024" rel="10024" data-issuekey="SCRUM-25" class="issuerow">
+                                            <td class="issuetype">    Story
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="SCRUM-25" href="https://team-9e21xqnfx5rs.atlassian.net/browse/SCRUM-25">SCRUM-25</a>
+</td>
+                                            <td class="summary"><p>
+                As a system administrator, I want to integrate with multiple public weather services, so that we can collect comprehensive weather data from various sources.  
+    </p>
+</td>
+                                            <td class="assignee">            Developer
+    </td>
+                                            <td class="reporter">            Manoj Chitgopkar
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Done&lt;/span&gt;">Done</span>    </td>
+                                            <td class="resolution">    Done
+</td>
+                                            <td class="created"> 18/Mar/24 10:04 AM </td>
+                                            <td class="updated"> 19/Mar/24 10:31 AM </td>
+                                            <td class="duedate">    24/Feb/24
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10025" rel="10025" data-issuekey="SCRUM-26" class="issuerow">
+                                            <td class="issuetype">    Story
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="SCRUM-26" href="https://team-9e21xqnfx5rs.atlassian.net/browse/SCRUM-26">SCRUM-26</a>
+</td>
+                                            <td class="summary"><p>
+                As a developer, I want to detect locations based on GPS (if on a device) or IP.
+    </p>
+</td>
+                                            <td class="assignee">            Developer
+    </td>
+                                            <td class="reporter">            Manoj Chitgopkar
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Done&lt;/span&gt;">Done</span>    </td>
+                                            <td class="resolution">    Done
+</td>
+                                            <td class="created"> 18/Mar/24 12:06 PM </td>
+                                            <td class="updated"> 19/Mar/24 10:31 AM </td>
+                                            <td class="duedate">    20/Feb/24
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10027" rel="10027" data-issuekey="SCRUM-28" class="issuerow">
+                                            <td class="issuetype">    Story
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="SCRUM-28" href="https://team-9e21xqnfx5rs.atlassian.net/browse/SCRUM-28">SCRUM-28</a>
+</td>
+                                            <td class="summary"><p>
+                As a developer, I want to provide seasonal forecasts like seasonal precipitation and temperatures.
+    </p>
+</td>
+                                            <td class="assignee">            Developer
+    </td>
+                                            <td class="reporter">            Manoj Chitgopkar
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Done&lt;/span&gt;">Done</span>    </td>
+                                            <td class="resolution">    Done
+</td>
+                                            <td class="created"> 18/Mar/24 12:10 PM </td>
+                                            <td class="updated"> 19/Mar/24 10:31 AM </td>
+                                            <td class="duedate">    04/Mar/24
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10028" rel="10028" data-issuekey="SCRUM-29" class="issuerow">
+                                            <td class="issuetype">    Story
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="SCRUM-29" href="https://team-9e21xqnfx5rs.atlassian.net/browse/SCRUM-29">SCRUM-29</a>
+</td>
+                                            <td class="summary"><p>
+                As a developer, build logic to reconcile and aggregate data from multiple service providers and display the result to user based on his preference.
+    </p>
+</td>
+                                            <td class="assignee">            Developer
+    </td>
+                                            <td class="reporter">            Manoj Chitgopkar
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Done&lt;/span&gt;">Done</span>    </td>
+                                            <td class="resolution">    Done
+</td>
+                                            <td class="created"> 18/Mar/24 12:12 PM </td>
+                                            <td class="updated"> 19/Mar/24 10:31 AM </td>
+                                            <td class="duedate">    01/Mar/24
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10029" rel="10029" data-issuekey="SCRUM-30" class="issuerow">
+                                            <td class="issuetype">    Story
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="SCRUM-30" href="https://team-9e21xqnfx5rs.atlassian.net/browse/SCRUM-30">SCRUM-30</a>
+</td>
+                                            <td class="summary"><p>
+                As a developer, I want to publish API or Services for client apps.
+    </p>
+</td>
+                                            <td class="assignee">            Developer
+    </td>
+                                            <td class="reporter">            Manoj Chitgopkar
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Done&lt;/span&gt;">Done</span>    </td>
+                                            <td class="resolution">    Done
+</td>
+                                            <td class="created"> 18/Mar/24 12:13 PM </td>
+                                            <td class="updated"> 19/Mar/24 10:31 AM </td>
+                                            <td class="duedate">    17/Mar/24
+</td>
+                    </tr>
+        </tbody>
+    </table>
+    <div class="end-of-stable-message"></div>
+            <table border="1" >
+<tr>
+    <td bgcolor="#dddddd" colspan="11"><font size="1">
+        Generated at Tue Mar 19 07:03:19 UTC 2024 by Manoj Chitgopkar using Jira 1001.0.0-SNAPSHOT#100247-rev:f15eb5ecd9752cc33a3d56ca2cfdfada66c281b0.
+    </font></td>
+</tr>
+</table>
+
+</body>
+</html>
